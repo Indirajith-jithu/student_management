@@ -14,8 +14,8 @@ This is a simple CRUD API built using FastAPI for managing student records.
 1. Clone the repository:
 
     ```
-    git clone https://github.com/yourusername/fastapi-student-management.git
-    cd fastapi-student-management
+    git clone https://github.com/Indirajith-jithu/student_management.git
+    cd student_management
     ```
 
 2. Install dependencies:
@@ -27,15 +27,17 @@ This is a simple CRUD API built using FastAPI for managing student records.
 3. Set up the PostgreSQL database:
    
    - Make sure PostgreSQL is installed and running on your system.
-   - Create a new database and update the connection string in `main.py`.
+   - Create a new database and update the connection string (SQLALCHEMY_DATABASE_URL) in `main.py`.
 
 4. Run the FastAPI server:
 
     ```
-    uvicorn main:app --reload
+    python main.py
     ```
 
-5. Access the API at `http://localhost:8000`.
+5. Access the API at `http://localhost:8000` and API DOC at `http://localhost:8000/docs`.
+
+
 
 ## Usage
 
@@ -63,7 +65,7 @@ To run the Streamlit app:
 2. Run the app:
 
     ```
-    streamlit run streamlit_app.py
+    streamlit run frontend.py
     ```
 
 3. Access the app at `http://localhost:8501`.
