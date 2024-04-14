@@ -29,8 +29,8 @@ This is a simple CRUD API built using FastAPI for managing student records.
 
 3. Set up the PostgreSQL database:
    
-   - Make sure PostgreSQL is installed and running on your system.
-   - Create a new database and update the connection string (SQLALCHEMY_DATABASE_URL) in `main.py`.
+   - Make sure [PostgreSQL](https://www.postgresql.org/download/) is installed and running on your system.
+   - Create a new database and update the connection string in `main.py`
 
 4. Run the FastAPI server:
 
