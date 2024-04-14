@@ -1,0 +1,6 @@
+uvicorn
+fastapi
+streamlit
+pydantic 
+sqlalchemy
+psycopg2
